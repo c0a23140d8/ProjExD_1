@@ -32,7 +32,7 @@ def main():
         if key_lst[pg.K_DOWN]:
             kt_rct.move_ip((0 ,1))
         if key_lst[pg.K_RIGHT]:
-            kt_rct.move_ip((1 ,0))
+            tmr += 1
         if key_lst[pg.K_LEFT]:
             kt_rct.move_ip((-1 ,0))
         screen.blit(kt_img, kt_rct)
